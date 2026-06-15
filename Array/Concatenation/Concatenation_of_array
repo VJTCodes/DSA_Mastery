@@ -1,0 +1,13 @@
+var cancatArray = function(nums){
+    //Given an integer array of length n
+    //New array needs to be created with length of 2n
+    //Expected output is [1,2,3,1,2,3]
+    // Create the doubled array by concatenation
+    let newArray = nums.concat(nums);
+
+    console.log(newArray);
+
+    return newArray;
+     
+}
+var result = cancatArray([1,2,3])
